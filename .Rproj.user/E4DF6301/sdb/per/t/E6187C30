@@ -1,0 +1,17 @@
+{
+    "contents" : "library(lineprof)\nf <- function() {\n  pause(0.1)\n  g()\n  h()\n}\ng <- function() {\n  pause(0.1)\n  h()\n}\nh <- function() {\n  pause(0.1)\n}\n",
+    "created" : 1421527901829.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2331136133",
+    "id" : "E6187C30",
+    "lastKnownWriteTime" : 1421274238,
+    "path" : "~/Dropbox/15-masterclass/day-1/lineprof-ex.R",
+    "project_path" : "lineprof-ex.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

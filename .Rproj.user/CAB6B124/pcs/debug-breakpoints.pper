@@ -1,0 +1,36 @@
+{
+    "debugBreakpointsState" : {
+        "breakpoints" : [
+            {
+                "editor_line_number" : 7,
+                "editor_state" : 2,
+                "function_name" : "col_means",
+                "function_steps" : "",
+                "id" : 4,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 7,
+                "needs_updated_steps" : true,
+                "package_name" : "",
+                "path" : "~/Desktop/errors.R",
+                "state" : 2,
+                "type" : 0
+            },
+            {
+                "editor_line_number" : 3,
+                "editor_state" : 2,
+                "function_name" : "h",
+                "function_steps" : "",
+                "id" : 6,
+                "is_package_breakpoint" : false,
+                "is_pending_debug_completion" : false,
+                "line_number" : 3,
+                "needs_updated_steps" : true,
+                "package_name" : "",
+                "path" : "~/Desktop/test.R",
+                "state" : 2,
+                "type" : 0
+            }
+        ]
+    }
+}

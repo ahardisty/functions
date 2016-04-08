@@ -1,0 +1,10 @@
+{
+    "dialog-state" : {
+        "caseSensitive" : false,
+        "filePatterns" : [
+        ],
+        "path" : "~/Dropbox (RStudio)/15-masterclass/day-1",
+        "query" : "Safer constructor",
+        "regex" : false
+    }
+}

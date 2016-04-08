@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(dplyr)\nlibrary(purrr)\n\ndf <- rerun(20, runif(3e7)) %>% set_names(letters[1:20]) %>% as_data_frame()\n\nsystem.time(filter(df, e < 0.1))\n\nlibrary(data.table)\ndt <- data.table(df)\nsetkey(dt, e)\n\nsystem.time(dt[e < 0.1])\n",
+    "created" : 1452810443024.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2209039935",
+    "id" : "4FEDBB3C",
+    "lastKnownWriteTime" : 2475636339810066802,
+    "last_content_update" : 1452867521298,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

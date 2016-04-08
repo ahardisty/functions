@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "compute_length <- function(x) {\n  out <- numeric(length(x))\n  for (i in seq_along(x)) {\n    out[[i]] <- length(x[[i]])\n  }\n  out\n}\ncompute_mean <- function(x) {\n  out <- numeric(length(x))\n  for (i in seq_along(x)) {\n    out[[i]] <- mean(x[[i]])\n  }\n  out\n}\ncompute_median <- function(x) {\n  out <- numeric(length(x))\n  for (i in seq_along(l)) {\n    out[[i]] <- median(l[[i]])\n  }\n  out\n}",
+    "created" : 1452966387526.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3464638657",
+    "id" : "66577881",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1452966400799,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled10"
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "data(happy, package=\"GGally\")\nlibrary(ggplot2)\nggplot(happy, aes(age, colour = marital)) + geom_density()\nggplot(happy, aes(age, ..count.., colour = marital)) + geom_density()\n\nhappy %>% count(maritial)\n",
+    "created" : 1452813035943.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3390379999",
+    "id" : "76458E93",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1452813464846,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(purrr) \nset.seed(1014)\n   \n\nl <- rerun(20, runif(sample(1:10, 1)))\nstr(l)\nl",
+    "created" : 1452966197004.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3967802373",
+    "id" : "E044D9E4",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1452966215629,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled9"
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

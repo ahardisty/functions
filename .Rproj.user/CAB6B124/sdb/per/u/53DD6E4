@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "df <- data.frame(\n  a = 1L,\n  b = 1.5,\n  y = Sys.time(),\n  z = ordered(1)\n)\n\n\ndf[1:4] %>% map(class) %>% str()\ndf[1:2] %>% map(class) %>% str()\ndf[3:4] %>% map(class) %>% str()\n",
+    "created" : 1452966763981.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2969355215",
+    "id" : "53DD6E4",
+    "lastKnownWriteTime" : 7163382460426747910,
+    "last_content_update" : 1452966902107,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled11"
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

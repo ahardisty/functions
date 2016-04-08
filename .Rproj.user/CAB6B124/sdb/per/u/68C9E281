@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "x <- 1:3\nx[-which(is.na(x))]\n",
+    "created" : 1452963266709.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1608656645",
+    "id" : "68C9E281",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1452963648122,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled5"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "x <- data.frame(1:3)\ny <- matrix(1:3, ncol = 1)\nz <- 1:3\n\nstr(cbind(x, y, z))\nstr(cbind(y, x, z))\n\n",
+    "created" : 1452964112143.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1070210091",
+    "id" : "86A7506A",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1452964577796,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled6"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

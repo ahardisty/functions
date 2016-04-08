@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Impute missing values with average of neighbours ------------------------\n\nimpute_na1 <- function(x) {\n  for (i in 2:length(x)) {\n    if (x[i] == \"NA\") {\n      x[i] <- (x[i - 1] + x[i + 1]) / 2\n    } else {\n      x[i] <- x[i]\n    }\n  }\n  x\n}\nimpute_na1(c(1, 4, 5, \"NA\", 10, 13, 10))\n\n# Better NA handling ------------------------------------------------------\n\nimpute_na2 <- function(x) {\n  stopifnot(is.numeric(x))\n  \n  for (i in 2:length(x)) {\n    if (is.na(x[i])) {\n      x[i] <- (x[i - 1] + x[i + 1]) / 2\n    }\n  }\n  x\n}\n\n\nimpute_na2(c(1, 4, 5, \"NA\", 10, 13, 10))\nimpute_na2(c(1, 4, 5, NA, 10, 13, 10))\n\nimpute_na2(numeric())\nimpute_na2(1)\nimpute_na2(NA_real_)\n\nimpute_na2(c(NA, 1))\nimpute_na2(c(1, NA, NA, 2))\nimpute_na2(c(1, NA))\n\n# Generalise the approach -------------------------------------------------\n\nimpute_na3 <- function(x) {\n  miss <- is.na(x)\n  interp <- approxfun(seq_along(x)[!miss], x[!miss])\n  \n  x[miss] <- interp(seq_along(x)[miss])\n  x\n}\n\nimpute_na3(c(NA, NA))\nimpute_na3(c(NA, NA, 1))\nimpute_na3(c(NA, NA, 1, 2))\n",
+    "created" : 1452955413666.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3404886640",
+    "id" : "A1B1C7CF",
+    "lastKnownWriteTime" : 1452955593,
+    "last_content_update" : 1452955639779,
+    "path" : "~/Dropbox (RStudio)/rstudio-training/16-expressing-yourself/code-slides/impute_na.R",
+    "project_path" : "impute_na.R",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "library(lineprof)\n\n# Needed so we need line numbers\nsource(\"lineprof-ex.R\")\nl <- lineprof(f())\n\nl\nshine(l)\n",
+    "created" : 1421527895576.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2841539786",
+    "id" : "11F1473D",
+    "lastKnownWriteTime" : 1421273946,
+    "path" : "~/Dropbox/15-masterclass/day-1/lineprof.R",
+    "project_path" : "lineprof.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

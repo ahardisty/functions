@@ -1,0 +1,17 @@
+{
+    "contents" : "source(\"rv.r\")\n\ndice <- rv(1:6)\nmean(dice)\nmin(dice)\nmax(dice)\nrange(dice)\n\nP(dice > 3)\nplot(dice + dice + dice)\n",
+    "created" : 1421527946108.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1763503812",
+    "id" : "B861C8CB",
+    "lastKnownWriteTime" : 1421363990,
+    "path" : "~/Dropbox/15-masterclass/day-1/rv-example.R",
+    "project_path" : "rv-example.R",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "x <- c(1, 1, NA, NA)\ny <- c(1, NA, 1, NA)\n\nsum(is.na(x) & is.na(y))\n\nboth_na <- function(x, y) {\n  sum(is.na(x) & is.na(y))\n}\n\nboth_na(c(1, NA), c(NA, NA, 2, NA))\n",
+    "created" : 1452961114370.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2782037195",
+    "id" : "7EA587C4",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1452961454257,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled4"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

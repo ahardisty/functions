@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "f1 <- function(x) x + 1\nf2 <- function(x) x + 2\nf3 <- function(x) x + 3\nf4 <- function(x) x + 4\n\nf <- function(x, y) x + y",
+    "created" : 1452966101948.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3927352137",
+    "id" : "F168616E",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1452966124843,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled8"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

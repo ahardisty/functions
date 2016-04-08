@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "col_means <- function(df) {\n  stopifnot(is.data.frame(df))\n\n  numeric_cols <- keep(df, is.numeric)\n  as.data.frame(map(numeric_cols, mean))\n}\n\ncol_means <- function(df) {\n  stopifnot(is.data.frame(df))\n  \n  df %>% \n    keep(is.numeric) %>% \n    map(mean) %>% \n    as.data.frame()\n}\n\ncol_means(mtcars)\ncol_means(mtcars[, 0])\ncol_means(mtcars[0, ])\ncol_means(mtcars[, \"mpg\", drop = F])\ncol_means(1:10)\ncol_means(as.matrix(mtcars))\n# col_means(as.list(mtcars))\n# \n# mtcars2 <- mtcars\n# mtcars2[-1] <- lapply(mtcars2[-1], as.character)\n# col_means(mtcars2)\n\n\ncol_summarise <- function(df, f, ...) {\n  if (!is.data.frame(df)) {\n    df <- as.data.frame(df)\n  }\n  \n  numeric <- vapply(df, is.numeric, logical(1))\n  numeric_cols <- df[, numeric, drop = FALSE]\n  \n  data.frame(lapply(numeric_cols, f, ...))\n}\n\ncol_summarise(mtcars, mean)\ncol_summarise(mtcars, median)\ncol_summarise(mtcars, sd)\n",
+    "created" : 1452809810504.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4216551841",
+    "id" : "B20C9510",
+    "lastKnownWriteTime" : 1452860468,
+    "last_content_update" : 1452860468983,
+    "path" : "~/Dropbox (RStudio)/rstudio-training/16-expressing-yourself/code-slides/colmeans-safe.R",
+    "project_path" : "colmeans-safe.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

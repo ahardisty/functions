@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "col_means <- function(df) {\n  numeric <- sapply(df, is.numeric)\n  numeric_cols <- df[, numeric]\n  \n  data.frame(lapply(numeric_cols, mean))\n}\n\n\ncol_means(mtcars)\ncol_means(mtcars[, 0])\ncol_means(mtcars[0, ])\ncol_means(mtcars[, \"mpg\", drop = F])\ncol_means(1:10)\ncol_means(as.matrix(mtcars))\n\n\n",
+    "created" : 1452801708358.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2324149395",
+    "id" : "757A3C65",
+    "lastKnownWriteTime" : 1452809808,
+    "last_content_update" : 1452809808560,
+    "path" : "~/Dropbox (RStudio)/rstudio-training/16-expressing-yourself/code-slides/colmeans-unsafe.R",
+    "project_path" : "colmeans-unsafe.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

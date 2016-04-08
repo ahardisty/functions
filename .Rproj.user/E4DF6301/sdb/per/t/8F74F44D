@@ -1,0 +1,17 @@
+{
+    "contents" : "prob <- function(x) minmax(x, 0, 1)\nlikert <- function(x) minmax(x, 1, 5)\n\ndf <- data.frame(\n  x = prob(runif(10, 0.2, 0.9)),\n  y = likert(sample(1:4, 10, rep = T))\n)\n\nrange(df$x)\nrange(df$y)\n\n# And in an ideal world:\nplot(y ~ x, data = df)\nplot(y ~ x, data = df, xlim = range(x), ylim = range(y))\n",
+    "created" : 1421527905238.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4225205602",
+    "id" : "8F74F44D",
+    "lastKnownWriteTime" : 1409947268,
+    "path" : "~/Dropbox/15-masterclass/day-1/minmax-example.R",
+    "project_path" : "minmax-example.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "add <- function(x, y = 10) { \n  x + y\n}\nformals(add)\nbody(add)\nenvironment(add)\n\n`+`(1, `*`(2, 3))\n1 + 2 * 3\n\nf(1, g(2, 3))\n\n",
+    "created" : 1452960605054.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3654588394",
+    "id" : "32FB31CE",
+    "lastKnownWriteTime" : 4300066864,
+    "last_content_update" : 1452960742071,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
